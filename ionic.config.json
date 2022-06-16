@@ -1,0 +1,7 @@
+{
+  "name": "OfficeIn",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
