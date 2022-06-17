@@ -11,11 +11,11 @@
           <div class="f-h-l">Welcome Back</div>
           <div class="f-h-b">Ganesan</div>
       </ion-col>
-      <ion-col>
+      <!-- <ion-col>
         <div class="photo-icon">
           <ion-icon name="person-circle-outline"></ion-icon>
         </div>
-      </ion-col>
+      </ion-col> -->
     </ion-row>
     <ion-row class="menu-item-block">
       <ion-col size="6" class="menu-item-container">
@@ -36,7 +36,7 @@
             <div class="dash-text">Leaves</div>
         </div>
       </ion-col>
-      <ion-col size="6" class="menu-item-container">
+      <ion-col size="6" class="menu-item-container"  [routerLink]="['/attendance-login']">
         <div class="menu-item">
             <div><ion-icon class="dash-icon" name="calendar-number-outline"></ion-icon></div>
             <div class="dash-text">Attendance</div>

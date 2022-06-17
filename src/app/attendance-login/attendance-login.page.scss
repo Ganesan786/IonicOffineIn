@@ -1,0 +1,69 @@
+.att-profile-container {
+    // background: linear-gradient(to right top, #37cdbf, #2fc1b3, #1eada0, #25a194, #26a89c);
+    background: linear-gradient(to right top, #2ecfc0, #1fc5b4, #27a79b, #21998b, #21706a);
+    border-bottom-left-radius: 40px;
+}
+.att-profile-pic {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+.att-profile-info {
+    text-align: center;
+    color: #fff;
+}
+.att-profile-photo {
+    box-shadow: 0 5px 14px -3px #000;
+    border-radius: 10px;
+}
+.att-profile-name {
+    
+    font-weight: 600;
+}
+.att-profile-empNo {
+    
+    font-size: 14px;
+    padding-top: 0.5rem;
+    font-weight: 600;
+}
+.att-date-time {
+    color: #fff;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.att-date {
+    font-size: 18px;
+}
+.att-time {
+    font-size: 22px;
+    padding-top: 0.5rem;
+}
+.att-c-time-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.att-c-time-info > div {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.brd-l {
+    border-left: 1px solid #14a194;
+}
+.att-check-container {
+    padding-top: 4rem;
+}
+.att-c-time {
+    color: #239d90;
+    font-size: 18px;
+}
+.pd-t {
+    padding-top: 2rem;
+}
+.footer-md::before {
+    background-image: none;
+}

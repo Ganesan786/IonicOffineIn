@@ -5,7 +5,8 @@ const routes: Routes = [
   {
     path: '',
     //loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
-    redirectTo: 'home', pathMatch: 'full' 
+    //redirectTo: 'home', pathMatch: 'full'
+    redirectTo: 'login', pathMatch: 'full' 
   },
   {
     path: 'login',
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'dashboard',
     loadChildren: () => import('./dashboard/dashboard.module').then( m => m.DashboardPageModule)
+  },
+  {
+    path: 'attendance-login',
+    loadChildren: () => import('./attendance-login/attendance-login.module').then( m => m.AttendanceLoginPageModule)
   }
 ];
 @NgModule({
