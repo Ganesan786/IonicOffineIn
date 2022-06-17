@@ -1,6 +1,7 @@
 {
   "name": "OfficeIn",
   "integrations": {
+    "cordova": {},
     "capacitor": {}
   },
   "type": "angular"

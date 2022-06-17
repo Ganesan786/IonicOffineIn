@@ -1,0 +1,22 @@
+.menu-item {
+    display: grid;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background: #fff;
+    border-radius: 20px;
+}
+.dash-icon {
+    font-size: 28px;
+    color: #c1c3c5;
+}
+.dash-text {
+    margin-top: 14px;
+    font-size: 14px;
+    color: #545353;
+}
+.menu-item-block {
+    margin-top: 10px;
+}

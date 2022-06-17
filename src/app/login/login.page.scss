@@ -1,0 +1,22 @@
+.bg-section {
+    height: 55vh;
+}
+.bg-logo {
+    background-repeat: no-repeat;
+    background-image: url(/assets/logo_mds.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.login-form {
+    width: 80%;
+    margin: 10% auto;
+}
+.login-btn {
+    margin-top: 10%;
+}
+.login-btn-color.ion-color-success {
+    --ion-color-base: #14a194 !important;
+}

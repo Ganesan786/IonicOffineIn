@@ -1,0 +1,40 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Log In</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+<ion-content>
+  <ion-grid class="ion-no-padding">
+    <ion-row class="bg-section ion-no-padding">
+      <ion-col class="ion-no-padding">
+        <div class="bg-logo"></div>
+      </ion-col>
+    </ion-row>
+    <ion-row class="ion-no-padding">
+      <ion-col class="ion-no-padding">
+          <div class="login-form">
+            <form>
+              <ion-item lines="full">
+                <ion-label position="floating" class="f-h">Username</ion-label>
+                <ion-input type="text" class="f-h" required></ion-input>
+              </ion-item>
+              <ion-item lines="full">
+                <ion-label position="floating" class="f-h">Password</ion-label>
+                <ion-input type="password" class="f-h" required></ion-input>
+              </ion-item>
+              <ion-row class="login-btn">
+                <ion-col>
+                  <ion-button [routerLink]="['/dashboard']" type="submit" class="f-h login-btn-color" color="success">Log In</ion-button>
+                  <!-- <ion-button type="submit" color="danger" expand="block">Sign In</ion-button> -->
+                  <!-- <a [routerLink]="['/forgot-password']" class="small-text">Forgot Password?</a> -->
+                </ion-col>
+              </ion-row>
+            </form>
+          </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
