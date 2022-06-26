@@ -7,7 +7,11 @@ import { IonicModule } from '@ionic/angular';
 import { AttendanceLoginPageRoutingModule } from './attendance-login-routing.module';
 
 import { AttendanceLoginPage } from './attendance-login.page';
-import { Geolocation } from '@awesome-cordova-plugins/geolocation/ngx';
+
+// geolocation and native-geocoder
+import { Geolocation } from '@ionic-native/geolocation/ngx';
+import { NativeGeocoder } from '@ionic-native/native-geocoder/ngx';
+
 
 @NgModule({
   imports: [
@@ -17,8 +21,7 @@ import { Geolocation } from '@awesome-cordova-plugins/geolocation/ngx';
     AttendanceLoginPageRoutingModule
   ],
   declarations: [AttendanceLoginPage],
-  providers: [
-    Geolocation
-]
+  providers: [Geolocation,
+    NativeGeocoder]
 })
 export class AttendanceLoginPageModule {}

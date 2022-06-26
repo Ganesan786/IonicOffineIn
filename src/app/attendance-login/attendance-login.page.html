@@ -37,13 +37,43 @@
         <div class="att-c-time-val">00:00</div>
       </div>
     </div>
+    <div class="locationData">
+      <div>
+        <ion-icon name="location-outline" role="img" class="md hydrated" style="font-size: 20px;" 
+        aria-label="location outline"></ion-icon>
+      </div>
+      <div>{{vilage}}</div>
+      <div>{{address}}</div>
+      
+    </div>
     
+    <!-- <ion-button (click)="getCurrentCoordinates()" expand="block">
+      Get Location
+    </ion-button>
+    <ion-list>
+      <ion-list-header>
+        <ion-label>Location Coordinates</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-label>
+          Latitue
+        </ion-label>
+        <ion-badge color="danger" slot="end">{{latitude}}</ion-badge>
+      </ion-item>
+      <ion-item>
+        <ion-label>
+          Longitude
+        </ion-label>
+        <ion-badge color="danger" slot="end">{{longitude}}</ion-badge>
+      </ion-item>
+      </ion-list> -->
   </div>
 </ion-content>
 <ion-footer collapse="fade" style="bottom: 4rem;">
   <div class="att-check-in-btn" style="text-align: center;">
     <div class="btn-content">
-      <ion-button class="f-h login-btn-color" color="success">Check In</ion-button>
+      <ion-button class="f-h login-btn-color" *ngIf="address" color="success">Check In</ion-button>
+      <ion-button class="f-h login-btn-color" color="success" *ngIf="!address" (click)="reloadCurrentRoute()"><ion-icon name="refresh-outline"></ion-icon>  Reload</ion-button>
     </div>
   </div>
 </ion-footer>

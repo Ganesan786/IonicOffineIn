@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "office-in"
+  },
+  "targets": {
+    "office-in": {
+      "hosting": {
+        "app": [
+          "office-in"
+        ]
+      }
+    }
+  }
+}
